@@ -1,0 +1,221 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Home Section */
+.home {
+    background-image: url('/Premium\ Photo\ _\ People\ on\ the\ dance\ floor.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 220px 20px;
+    text-align: center;
+}
+
+.home-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    animation: fadeInUp 1.5s;
+}
+
+.home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #f3a683; 
+}
+
+.home p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #ff6b81; 
+}
+
+.explore-btn {
+    padding: 10px 20px;
+    background-color: #4a69bd; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration:none;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.explore-btn:hover {
+    background-color: #3b54b0; 
+}
+
+/* Events Section */
+.concerts {
+    padding: 50px 20px;
+    background-color: #cb9daf;
+    text-align: center;
+}
+
+.concerts h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #e91e63; 
+}
+
+.concert-card {
+    display: flex;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;
+}
+
+.concert-card img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.concert-details {
+    padding: 20px;
+    text-align: left;
+}
+
+.concert-details h3 {
+    color: #4a69bd; 
+    margin-bottom: 10px;
+}
+
+.concert-details p {
+    margin: 5px 0;
+}
+
+.book-btn {
+    padding: 10px 15px;
+    background-color: #ff6b81; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.book-btn:hover {
+    background-color: #e55a6c; 
+}
+
+/* Contact Section */
+.contact {
+    padding: 185px 20px;
+    background-color: #a75c5c;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #ebecf0; 
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #e91e63; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.contact button:hover {
+    background-color: #d81b60; 
+}
+
+/* Profile Section */
+.profile {
+    padding: 205px 20px;
+    background-color: #e69fcb;
+    text-align: center;
+}
+
+.profile h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #4a69bd; 
+}
+
+.booked-event {
+    background-color: #f9f9f9;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+.booked-event h3 {
+    color: #4a69bd; 
+    margin-bottom: 10px;
+}
+
+.booked-event p {
+    margin: 5px 0;
+}
+
+.cancel-btn {
+    padding: 10px 15px;
+    background-color: #ff6b81; /* Vibrant Pink */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.cancel-btn:hover {
+    background-color: #e55a6c; 
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
